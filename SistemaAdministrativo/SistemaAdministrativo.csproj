@@ -52,19 +52,25 @@
     <Compile Include="FrmDatosInicio.Designer.cs">
       <DependentUpon>FrmDatosInicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmInicio.cs">
+    <Compile Include="FrmDetallesAd.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmInicio.Designer.cs">
-      <DependentUpon>FrmInicio.cs</DependentUpon>
+    <Compile Include="FrmDetallesAd.Designer.cs">
+      <DependentUpon>FrmDetallesAd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInicioAd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInicioAd.Designer.cs">
+      <DependentUpon>FrmInicioAd.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmDatosInicio.resx">
       <DependentUpon>FrmDatosInicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmInicio.resx">
-      <DependentUpon>FrmInicio.cs</DependentUpon>
+    <EmbeddedResource Include="FrmInicioAd.resx">
+      <DependentUpon>FrmInicioAd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -40,18 +40,24 @@
             this.lblApellidoAd = new System.Windows.Forms.Label();
             this.lblNombreAd = new System.Windows.Forms.Label();
             this.pnlDadosAdmi = new System.Windows.Forms.Panel();
+            this.txtShowName = new System.Windows.Forms.TextBox();
+            this.txtShowLastName = new System.Windows.Forms.TextBox();
+            this.txtShowCarnet = new System.Windows.Forms.TextBox();
+            this.txtShowGmail = new System.Windows.Forms.TextBox();
+            this.txtShowDepart = new System.Windows.Forms.TextBox();
+            this.txtsShowNum = new System.Windows.Forms.TextBox();
             this.pnlInicio.SuspendLayout();
             this.pnlInformacionAd.SuspendLayout();
+            this.pnlDadosAdmi.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnlInicio
             // 
-            this.pnlInicio.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlInicio.Controls.Add(this.lblInicioFrmInicio);
+            this.pnlInicio.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlInicio.Location = new System.Drawing.Point(0, 0);
             this.pnlInicio.Name = "pnlInicio";
-            this.pnlInicio.Size = new System.Drawing.Size(928, 32);
+            this.pnlInicio.Size = new System.Drawing.Size(788, 32);
             this.pnlInicio.TabIndex = 2;
             // 
             // lblInicioFrmInicio
@@ -68,8 +74,6 @@
             // 
             // pnlInformacionAd
             // 
-            this.pnlInformacionAd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
             this.pnlInformacionAd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlInformacionAd.BackgroundImage")));
             this.pnlInformacionAd.Controls.Add(this.label1);
             this.pnlInformacionAd.Controls.Add(this.lblTelefonoAd);
@@ -78,6 +82,7 @@
             this.pnlInformacionAd.Controls.Add(this.lblCarnetAd);
             this.pnlInformacionAd.Controls.Add(this.lblApellidoAd);
             this.pnlInformacionAd.Controls.Add(this.lblNombreAd);
+            this.pnlInformacionAd.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlInformacionAd.Location = new System.Drawing.Point(0, 32);
             this.pnlInformacionAd.Name = "pnlInformacionAd";
             this.pnlInformacionAd.Size = new System.Drawing.Size(200, 482);
@@ -158,17 +163,83 @@
             this.pnlDadosAdmi.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlDadosAdmi.Controls.Add(this.txtsShowNum);
+            this.pnlDadosAdmi.Controls.Add(this.txtShowDepart);
+            this.pnlDadosAdmi.Controls.Add(this.txtShowGmail);
+            this.pnlDadosAdmi.Controls.Add(this.txtShowCarnet);
+            this.pnlDadosAdmi.Controls.Add(this.txtShowLastName);
+            this.pnlDadosAdmi.Controls.Add(this.txtShowName);
             this.pnlDadosAdmi.Location = new System.Drawing.Point(200, 152);
             this.pnlDadosAdmi.Name = "pnlDadosAdmi";
-            this.pnlDadosAdmi.Size = new System.Drawing.Size(728, 360);
+            this.pnlDadosAdmi.Size = new System.Drawing.Size(589, 360);
             this.pnlDadosAdmi.TabIndex = 4;
+            // 
+            // txtShowName
+            // 
+            this.txtShowName.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtShowName.Location = new System.Drawing.Point(48, 40);
+            this.txtShowName.Multiline = true;
+            this.txtShowName.Name = "txtShowName";
+            this.txtShowName.ReadOnly = true;
+            this.txtShowName.Size = new System.Drawing.Size(440, 32);
+            this.txtShowName.TabIndex = 0;
+            // 
+            // txtShowLastName
+            // 
+            this.txtShowLastName.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtShowLastName.Location = new System.Drawing.Point(48, 88);
+            this.txtShowLastName.Multiline = true;
+            this.txtShowLastName.Name = "txtShowLastName";
+            this.txtShowLastName.ReadOnly = true;
+            this.txtShowLastName.Size = new System.Drawing.Size(440, 32);
+            this.txtShowLastName.TabIndex = 1;
+            // 
+            // txtShowCarnet
+            // 
+            this.txtShowCarnet.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtShowCarnet.Location = new System.Drawing.Point(48, 136);
+            this.txtShowCarnet.Multiline = true;
+            this.txtShowCarnet.Name = "txtShowCarnet";
+            this.txtShowCarnet.ReadOnly = true;
+            this.txtShowCarnet.Size = new System.Drawing.Size(192, 32);
+            this.txtShowCarnet.TabIndex = 2;
+            // 
+            // txtShowGmail
+            // 
+            this.txtShowGmail.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtShowGmail.Location = new System.Drawing.Point(48, 184);
+            this.txtShowGmail.Multiline = true;
+            this.txtShowGmail.Name = "txtShowGmail";
+            this.txtShowGmail.ReadOnly = true;
+            this.txtShowGmail.Size = new System.Drawing.Size(440, 32);
+            this.txtShowGmail.TabIndex = 3;
+            // 
+            // txtShowDepart
+            // 
+            this.txtShowDepart.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtShowDepart.Location = new System.Drawing.Point(48, 240);
+            this.txtShowDepart.Multiline = true;
+            this.txtShowDepart.Name = "txtShowDepart";
+            this.txtShowDepart.ReadOnly = true;
+            this.txtShowDepart.Size = new System.Drawing.Size(440, 32);
+            this.txtShowDepart.TabIndex = 4;
+            // 
+            // txtsShowNum
+            // 
+            this.txtsShowNum.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtsShowNum.Location = new System.Drawing.Point(48, 304);
+            this.txtsShowNum.Multiline = true;
+            this.txtsShowNum.Name = "txtsShowNum";
+            this.txtsShowNum.ReadOnly = true;
+            this.txtsShowNum.Size = new System.Drawing.Size(208, 32);
+            this.txtsShowNum.TabIndex = 5;
             // 
             // FrmDatosInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(927, 514);
+            this.ClientSize = new System.Drawing.Size(788, 514);
             this.Controls.Add(this.pnlDadosAdmi);
             this.Controls.Add(this.pnlInformacionAd);
             this.Controls.Add(this.pnlInicio);
@@ -179,6 +250,8 @@
             this.pnlInicio.PerformLayout();
             this.pnlInformacionAd.ResumeLayout(false);
             this.pnlInformacionAd.PerformLayout();
+            this.pnlDadosAdmi.ResumeLayout(false);
+            this.pnlDadosAdmi.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -196,5 +269,11 @@
         private System.Windows.Forms.Label lblApellidoAd;
         private System.Windows.Forms.Label lblNombreAd;
         private System.Windows.Forms.Panel pnlDadosAdmi;
+        private System.Windows.Forms.TextBox txtsShowNum;
+        private System.Windows.Forms.TextBox txtShowDepart;
+        private System.Windows.Forms.TextBox txtShowGmail;
+        private System.Windows.Forms.TextBox txtShowCarnet;
+        private System.Windows.Forms.TextBox txtShowLastName;
+        private System.Windows.Forms.TextBox txtShowName;
     }
 }

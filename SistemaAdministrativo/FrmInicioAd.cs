@@ -37,6 +37,8 @@ namespace SistemaAdministrativo
         {
             FrmDatosInicio us = new FrmDatosInicio();
             AbrirForm(us);
+
+            pictBoxLogo.Visible = false;
         }
     }
 }

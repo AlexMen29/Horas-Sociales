@@ -274,10 +274,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Times-Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(61, 168);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(541, 32);
+            this.label6.Size = new System.Drawing.Size(593, 31);
             this.label6.TabIndex = 1;
             this.label6.Text = "Sistema de Gestión y Control de Horas Sociales";
             // 
@@ -291,6 +291,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // frmInicio
             // 
