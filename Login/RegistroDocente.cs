@@ -50,5 +50,10 @@ namespace Login
             this.btnRegistrar.ForeColor = Color.White;
 
         }
+
+        private void txtCarnet_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

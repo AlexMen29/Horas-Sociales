@@ -164,6 +164,7 @@
             this.txtCarnet.Name = "txtCarnet";
             this.txtCarnet.Size = new System.Drawing.Size(182, 20);
             this.txtCarnet.TabIndex = 15;
+            this.txtCarnet.TextChanged += new System.EventHandler(this.txtCarnet_TextChanged);
             // 
             // txtCupHoras
             // 
