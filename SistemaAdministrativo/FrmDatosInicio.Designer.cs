@@ -40,12 +40,12 @@
             this.lblApellidoAd = new System.Windows.Forms.Label();
             this.lblNombreAd = new System.Windows.Forms.Label();
             this.pnlDadosAdmi = new System.Windows.Forms.Panel();
-            this.txtShowName = new System.Windows.Forms.TextBox();
-            this.txtShowLastName = new System.Windows.Forms.TextBox();
-            this.txtShowCarnet = new System.Windows.Forms.TextBox();
-            this.txtShowGmail = new System.Windows.Forms.TextBox();
-            this.txtShowDepart = new System.Windows.Forms.TextBox();
             this.txtsShowNum = new System.Windows.Forms.TextBox();
+            this.txtShowDepart = new System.Windows.Forms.TextBox();
+            this.txtShowGmail = new System.Windows.Forms.TextBox();
+            this.txtShowCarnet = new System.Windows.Forms.TextBox();
+            this.txtShowLastName = new System.Windows.Forms.TextBox();
+            this.txtShowName = new System.Windows.Forms.TextBox();
             this.pnlInicio.SuspendLayout();
             this.pnlInformacionAd.SuspendLayout();
             this.pnlDadosAdmi.SuspendLayout();
@@ -174,45 +174,15 @@
             this.pnlDadosAdmi.Size = new System.Drawing.Size(589, 360);
             this.pnlDadosAdmi.TabIndex = 4;
             // 
-            // txtShowName
+            // txtsShowNum
             // 
-            this.txtShowName.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtShowName.Location = new System.Drawing.Point(48, 40);
-            this.txtShowName.Multiline = true;
-            this.txtShowName.Name = "txtShowName";
-            this.txtShowName.ReadOnly = true;
-            this.txtShowName.Size = new System.Drawing.Size(440, 32);
-            this.txtShowName.TabIndex = 0;
-            // 
-            // txtShowLastName
-            // 
-            this.txtShowLastName.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtShowLastName.Location = new System.Drawing.Point(48, 88);
-            this.txtShowLastName.Multiline = true;
-            this.txtShowLastName.Name = "txtShowLastName";
-            this.txtShowLastName.ReadOnly = true;
-            this.txtShowLastName.Size = new System.Drawing.Size(440, 32);
-            this.txtShowLastName.TabIndex = 1;
-            // 
-            // txtShowCarnet
-            // 
-            this.txtShowCarnet.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtShowCarnet.Location = new System.Drawing.Point(48, 136);
-            this.txtShowCarnet.Multiline = true;
-            this.txtShowCarnet.Name = "txtShowCarnet";
-            this.txtShowCarnet.ReadOnly = true;
-            this.txtShowCarnet.Size = new System.Drawing.Size(192, 32);
-            this.txtShowCarnet.TabIndex = 2;
-            // 
-            // txtShowGmail
-            // 
-            this.txtShowGmail.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtShowGmail.Location = new System.Drawing.Point(48, 184);
-            this.txtShowGmail.Multiline = true;
-            this.txtShowGmail.Name = "txtShowGmail";
-            this.txtShowGmail.ReadOnly = true;
-            this.txtShowGmail.Size = new System.Drawing.Size(440, 32);
-            this.txtShowGmail.TabIndex = 3;
+            this.txtsShowNum.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtsShowNum.Location = new System.Drawing.Point(48, 304);
+            this.txtsShowNum.Multiline = true;
+            this.txtsShowNum.Name = "txtsShowNum";
+            this.txtsShowNum.ReadOnly = true;
+            this.txtsShowNum.Size = new System.Drawing.Size(208, 32);
+            this.txtsShowNum.TabIndex = 5;
             // 
             // txtShowDepart
             // 
@@ -224,15 +194,45 @@
             this.txtShowDepart.Size = new System.Drawing.Size(440, 32);
             this.txtShowDepart.TabIndex = 4;
             // 
-            // txtsShowNum
+            // txtShowGmail
             // 
-            this.txtsShowNum.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtsShowNum.Location = new System.Drawing.Point(48, 304);
-            this.txtsShowNum.Multiline = true;
-            this.txtsShowNum.Name = "txtsShowNum";
-            this.txtsShowNum.ReadOnly = true;
-            this.txtsShowNum.Size = new System.Drawing.Size(208, 32);
-            this.txtsShowNum.TabIndex = 5;
+            this.txtShowGmail.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtShowGmail.Location = new System.Drawing.Point(48, 184);
+            this.txtShowGmail.Multiline = true;
+            this.txtShowGmail.Name = "txtShowGmail";
+            this.txtShowGmail.ReadOnly = true;
+            this.txtShowGmail.Size = new System.Drawing.Size(440, 32);
+            this.txtShowGmail.TabIndex = 3;
+            // 
+            // txtShowCarnet
+            // 
+            this.txtShowCarnet.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtShowCarnet.Location = new System.Drawing.Point(48, 136);
+            this.txtShowCarnet.Multiline = true;
+            this.txtShowCarnet.Name = "txtShowCarnet";
+            this.txtShowCarnet.ReadOnly = true;
+            this.txtShowCarnet.Size = new System.Drawing.Size(192, 32);
+            this.txtShowCarnet.TabIndex = 2;
+            // 
+            // txtShowLastName
+            // 
+            this.txtShowLastName.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtShowLastName.Location = new System.Drawing.Point(48, 88);
+            this.txtShowLastName.Multiline = true;
+            this.txtShowLastName.Name = "txtShowLastName";
+            this.txtShowLastName.ReadOnly = true;
+            this.txtShowLastName.Size = new System.Drawing.Size(440, 32);
+            this.txtShowLastName.TabIndex = 1;
+            // 
+            // txtShowName
+            // 
+            this.txtShowName.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtShowName.Location = new System.Drawing.Point(48, 40);
+            this.txtShowName.Multiline = true;
+            this.txtShowName.Name = "txtShowName";
+            this.txtShowName.ReadOnly = true;
+            this.txtShowName.Size = new System.Drawing.Size(440, 32);
+            this.txtShowName.TabIndex = 0;
             // 
             // FrmDatosInicio
             // 

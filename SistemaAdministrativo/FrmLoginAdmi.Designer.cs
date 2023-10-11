@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSisAd));
             this.PanelOpciones = new System.Windows.Forms.Panel();
+            this.btnVolver = new System.Windows.Forms.Button();
             this.btnHojaSocial = new System.Windows.Forms.Button();
             this.btnEnviarMensaje = new System.Windows.Forms.Button();
             this.btnEliminar = new System.Windows.Forms.Button();
@@ -55,6 +56,7 @@
             // PanelOpciones
             // 
             this.PanelOpciones.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PanelOpciones.BackgroundImage")));
+            this.PanelOpciones.Controls.Add(this.btnVolver);
             this.PanelOpciones.Controls.Add(this.btnHojaSocial);
             this.PanelOpciones.Controls.Add(this.btnEnviarMensaje);
             this.PanelOpciones.Controls.Add(this.btnEliminar);
@@ -68,14 +70,27 @@
             this.PanelOpciones.Size = new System.Drawing.Size(232, 487);
             this.PanelOpciones.TabIndex = 2;
             // 
+            // btnVolver
+            // 
+            this.btnVolver.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVolver.Image = ((System.Drawing.Image)(resources.GetObject("btnVolver.Image")));
+            this.btnVolver.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnVolver.Location = new System.Drawing.Point(0, 368);
+            this.btnVolver.Name = "btnVolver";
+            this.btnVolver.Size = new System.Drawing.Size(232, 48);
+            this.btnVolver.TabIndex = 14;
+            this.btnVolver.Text = "Volver";
+            this.btnVolver.UseVisualStyleBackColor = true;
+            this.btnVolver.Click += new System.EventHandler(this.button1_Click);
+            // 
             // btnHojaSocial
             // 
             this.btnHojaSocial.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHojaSocial.Image = ((System.Drawing.Image)(resources.GetObject("btnHojaSocial.Image")));
             this.btnHojaSocial.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHojaSocial.Location = new System.Drawing.Point(0, 344);
+            this.btnHojaSocial.Location = new System.Drawing.Point(0, 328);
             this.btnHojaSocial.Name = "btnHojaSocial";
-            this.btnHojaSocial.Size = new System.Drawing.Size(232, 40);
+            this.btnHojaSocial.Size = new System.Drawing.Size(232, 48);
             this.btnHojaSocial.TabIndex = 13;
             this.btnHojaSocial.Text = "   Hoja de Hora Social";
             this.btnHojaSocial.UseVisualStyleBackColor = true;
@@ -85,9 +100,9 @@
             this.btnEnviarMensaje.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnviarMensaje.Image = ((System.Drawing.Image)(resources.GetObject("btnEnviarMensaje.Image")));
             this.btnEnviarMensaje.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEnviarMensaje.Location = new System.Drawing.Point(0, 304);
+            this.btnEnviarMensaje.Location = new System.Drawing.Point(0, 288);
             this.btnEnviarMensaje.Name = "btnEnviarMensaje";
-            this.btnEnviarMensaje.Size = new System.Drawing.Size(232, 40);
+            this.btnEnviarMensaje.Size = new System.Drawing.Size(232, 48);
             this.btnEnviarMensaje.TabIndex = 12;
             this.btnEnviarMensaje.Text = "Enviar mensaje";
             this.btnEnviarMensaje.UseVisualStyleBackColor = true;
@@ -97,9 +112,9 @@
             this.btnEliminar.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
             this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminar.Location = new System.Drawing.Point(0, 264);
+            this.btnEliminar.Location = new System.Drawing.Point(0, 240);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(232, 40);
+            this.btnEliminar.Size = new System.Drawing.Size(232, 48);
             this.btnEliminar.TabIndex = 11;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -109,7 +124,7 @@
             this.button3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 224);
+            this.button3.Location = new System.Drawing.Point(0, 200);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(232, 40);
             this.button3.TabIndex = 10;
@@ -121,9 +136,9 @@
             this.btnDetalles.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetalles.Image = ((System.Drawing.Image)(resources.GetObject("btnDetalles.Image")));
             this.btnDetalles.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDetalles.Location = new System.Drawing.Point(0, 184);
+            this.btnDetalles.Location = new System.Drawing.Point(0, 160);
             this.btnDetalles.Name = "btnDetalles";
-            this.btnDetalles.Size = new System.Drawing.Size(232, 40);
+            this.btnDetalles.Size = new System.Drawing.Size(232, 48);
             this.btnDetalles.TabIndex = 9;
             this.btnDetalles.Text = "Detalles ";
             this.btnDetalles.UseVisualStyleBackColor = true;
@@ -133,9 +148,9 @@
             this.btnInicio.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInicio.Image = ((System.Drawing.Image)(resources.GetObject("btnInicio.Image")));
             this.btnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInicio.Location = new System.Drawing.Point(0, 144);
+            this.btnInicio.Location = new System.Drawing.Point(0, 112);
             this.btnInicio.Name = "btnInicio";
-            this.btnInicio.Size = new System.Drawing.Size(232, 40);
+            this.btnInicio.Size = new System.Drawing.Size(232, 48);
             this.btnInicio.TabIndex = 0;
             this.btnInicio.Text = "Inicio";
             this.btnInicio.UseVisualStyleBackColor = true;
@@ -228,6 +243,7 @@
             this.pnlContenedor.Name = "pnlContenedor";
             this.pnlContenedor.Size = new System.Drawing.Size(658, 447);
             this.pnlContenedor.TabIndex = 4;
+            this.pnlContenedor.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlContenedor_Paint);
             // 
             // pictBoxLogo
             // 
@@ -281,6 +297,7 @@
         private System.Windows.Forms.Button btnDetalles;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictBoxLogo;
+        private System.Windows.Forms.Button btnVolver;
     }
 }
 

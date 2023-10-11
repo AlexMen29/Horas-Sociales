@@ -33,12 +33,24 @@ namespace SistemaAdministrativo
             this.pnlContenedor.Tag = fh;
             fh.Show();
         }
+
         private void btnInicio_Click(object sender, EventArgs e)
         {
-            FrmDatosInicio us = new FrmDatosInicio();
-            AbrirForm(us);
+            
+             FrmDatosInicio us = new FrmDatosInicio();
+             AbrirForm(us);
 
-            pictBoxLogo.Visible = false;
+             pictBoxLogo.Visible = false;
+        }
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
+
+        private void pnlContenedor_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
