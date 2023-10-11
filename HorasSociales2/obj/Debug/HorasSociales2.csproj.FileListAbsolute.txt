@@ -1,0 +1,23 @@
+C:\Users\ferna\Desktop\DS01 - II CICLO\PE\Horas Sociales Menu\HorasSociales2\bin\Debug\HorasSociales2.exe.config
+C:\Users\ferna\Desktop\DS01 - II CICLO\PE\Horas Sociales Menu\HorasSociales2\bin\Debug\HorasSociales2.exe
+C:\Users\ferna\Desktop\DS01 - II CICLO\PE\Horas Sociales Menu\HorasSociales2\bin\Debug\HorasSociales2.pdb
+C:\Users\ferna\Desktop\DS01 - II CICLO\PE\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.csproj.AssemblyReference.cache
+C:\Users\ferna\Desktop\DS01 - II CICLO\PE\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.FrmGeneral.resources
+C:\Users\ferna\Desktop\DS01 - II CICLO\PE\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.Properties.Resources.resources
+C:\Users\ferna\Desktop\DS01 - II CICLO\PE\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.csproj.GenerateResource.cache
+C:\Users\ferna\Desktop\DS01 - II CICLO\PE\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Desktop\DS01 - II CICLO\PE\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.exe
+C:\Users\ferna\Desktop\DS01 - II CICLO\PE\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.pdb
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\bin\Debug\HorasSociales2.exe.config
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\bin\Debug\HorasSociales2.exe
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\bin\Debug\HorasSociales2.pdb
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.csproj.AssemblyReference.cache
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.Properties.Resources.resources
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.csproj.GenerateResource.cache
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.csproj.CoreCompileInputs.cache
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.exe
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.pdb
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.FrmDatosGenerales.resources
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.FrmDatosInstitucion.resources
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.FrmObjetivosMetas.resources
+C:\Users\ferna\Desktop\DS01 CICLO II\Horas Sociales Menu\HorasSociales2\obj\Debug\HorasSociales2.FrmHorarioPeriodo.resources
