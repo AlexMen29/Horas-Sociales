@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace SistemaAdministrativo
 {
-    public partial class FrmDetallesAd : Form
+    public partial class EliminarDatosInstAd : Form
     {
-        public FrmDetallesAd()
+        public EliminarDatosInstAd()
         {
             InitializeComponent();
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -32,7 +32,6 @@
             this.PanelOpciones = new System.Windows.Forms.Panel();
             this.btnHojaSocial = new System.Windows.Forms.Button();
             this.btnEnviarMensaje = new System.Windows.Forms.Button();
-            this.btnEliminar = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.btnDetalles = new System.Windows.Forms.Button();
             this.btnInicio = new System.Windows.Forms.Button();
@@ -57,7 +56,6 @@
             this.PanelOpciones.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PanelOpciones.BackgroundImage")));
             this.PanelOpciones.Controls.Add(this.btnHojaSocial);
             this.PanelOpciones.Controls.Add(this.btnEnviarMensaje);
-            this.PanelOpciones.Controls.Add(this.btnEliminar);
             this.PanelOpciones.Controls.Add(this.button3);
             this.PanelOpciones.Controls.Add(this.btnDetalles);
             this.PanelOpciones.Controls.Add(this.btnInicio);
@@ -73,7 +71,7 @@
             this.btnHojaSocial.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHojaSocial.Image = ((System.Drawing.Image)(resources.GetObject("btnHojaSocial.Image")));
             this.btnHojaSocial.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHojaSocial.Location = new System.Drawing.Point(0, 336);
+            this.btnHojaSocial.Location = new System.Drawing.Point(0, 288);
             this.btnHojaSocial.Name = "btnHojaSocial";
             this.btnHojaSocial.Size = new System.Drawing.Size(232, 48);
             this.btnHojaSocial.TabIndex = 13;
@@ -85,24 +83,12 @@
             this.btnEnviarMensaje.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnviarMensaje.Image = ((System.Drawing.Image)(resources.GetObject("btnEnviarMensaje.Image")));
             this.btnEnviarMensaje.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEnviarMensaje.Location = new System.Drawing.Point(0, 288);
+            this.btnEnviarMensaje.Location = new System.Drawing.Point(0, 240);
             this.btnEnviarMensaje.Name = "btnEnviarMensaje";
             this.btnEnviarMensaje.Size = new System.Drawing.Size(232, 48);
             this.btnEnviarMensaje.TabIndex = 12;
             this.btnEnviarMensaje.Text = "Enviar mensaje";
             this.btnEnviarMensaje.UseVisualStyleBackColor = true;
-            // 
-            // btnEliminar
-            // 
-            this.btnEliminar.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEliminar.Image = ((System.Drawing.Image)(resources.GetObject("btnEliminar.Image")));
-            this.btnEliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliminar.Location = new System.Drawing.Point(0, 240);
-            this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(232, 48);
-            this.btnEliminar.TabIndex = 11;
-            this.btnEliminar.Text = "Eliminar";
-            this.btnEliminar.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -113,7 +99,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(232, 48);
             this.button3.TabIndex = 10;
-            this.button3.Text = "Modificar";
+            this.button3.Text = "Eliminar/Modificar";
             this.button3.UseVisualStyleBackColor = true;
             // 
             // btnDetalles
@@ -277,7 +263,6 @@
         private System.Windows.Forms.Button btnInicio;
         private System.Windows.Forms.Button btnHojaSocial;
         private System.Windows.Forms.Button btnEnviarMensaje;
-        private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnDetalles;
         private System.Windows.Forms.Label label1;
