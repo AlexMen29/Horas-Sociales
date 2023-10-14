@@ -46,18 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EliminarActiAlumAd.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EliminarActiAlumAd.Designer.cs">
-      <DependentUpon>EliminarActiAlumAd.cs</DependentUpon>
-    </Compile>
-    <Compile Include="EliminarDatosInstAd.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="EliminarDatosInstAd.Designer.cs">
-      <DependentUpon>EliminarDatosInstAd.cs</DependentUpon>
-    </Compile>
     <Compile Include="EliminarDetallesAlum.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,12 +72,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="EliminarActiAlumAd.resx">
-      <DependentUpon>EliminarActiAlumAd.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="EliminarDatosInstAd.resx">
-      <DependentUpon>EliminarDatosInstAd.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="EliminarDetallesAlum.resx">
       <DependentUpon>EliminarDetallesAlum.cs</DependentUpon>
     </EmbeddedResource>

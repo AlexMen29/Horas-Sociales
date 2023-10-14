@@ -41,7 +41,6 @@
             this.btnNotificacion = new System.Windows.Forms.Button();
             this.pnlLogo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblLogo = new System.Windows.Forms.Label();
             this.pnlContenedor = new System.Windows.Forms.Panel();
             this.pictBoxLogo = new System.Windows.Forms.PictureBox();
             this.PanelOpciones.SuspendLayout();
@@ -195,21 +194,8 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Bienvenido al Menú Administrativo ";
             // 
-            // lblLogo
-            // 
-            this.lblLogo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.lblLogo.AutoSize = true;
-            this.lblLogo.Font = new System.Drawing.Font("Tahoma", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogo.Location = new System.Drawing.Point(104, 240);
-            this.lblLogo.Name = "lblLogo";
-            this.lblLogo.Size = new System.Drawing.Size(445, 25);
-            this.lblLogo.TabIndex = 0;
-            this.lblLogo.Text = "Sistema administrativo de Horas Sociales\r\n";
-            // 
             // pnlContenedor
             // 
-            this.pnlContenedor.Controls.Add(this.lblLogo);
             this.pnlContenedor.Controls.Add(this.pictBoxLogo);
             this.pnlContenedor.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlContenedor.Location = new System.Drawing.Point(232, 40);
@@ -223,7 +209,7 @@
             this.pictBoxLogo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictBoxLogo.Image = ((System.Drawing.Image)(resources.GetObject("pictBoxLogo.Image")));
-            this.pictBoxLogo.Location = new System.Drawing.Point(40, 104);
+            this.pictBoxLogo.Location = new System.Drawing.Point(56, 160);
             this.pictBoxLogo.Name = "pictBoxLogo";
             this.pictBoxLogo.Size = new System.Drawing.Size(579, 112);
             this.pictBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -240,13 +226,12 @@
             this.Controls.Add(this.PanelOpciones);
             this.Location = new System.Drawing.Point(224, 40);
             this.Name = "FrmSisAd";
-            this.Text = "Menú Administrativo";
+            this.Text = "5";
             this.PanelOpciones.ResumeLayout(false);
             this.PanelMenu.ResumeLayout(false);
             this.pnlLogo.ResumeLayout(false);
             this.pnlLogo.PerformLayout();
             this.pnlContenedor.ResumeLayout(false);
-            this.pnlContenedor.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictBoxLogo)).EndInit();
             this.ResumeLayout(false);
 
@@ -260,7 +245,6 @@
         private System.Windows.Forms.Button btnPerfil;
         private System.Windows.Forms.Button btnNotificacion;
         private System.Windows.Forms.Panel pnlLogo;
-        private System.Windows.Forms.Label lblLogo;
         private System.Windows.Forms.Panel pnlContenedor;
         private System.Windows.Forms.Button btnInicio;
         private System.Windows.Forms.Button btnHojaSocial;
