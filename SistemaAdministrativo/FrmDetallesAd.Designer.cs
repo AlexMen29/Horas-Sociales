@@ -32,17 +32,21 @@
             this.pnlDetallesInfo = new System.Windows.Forms.Panel();
             this.btnInfoDetaAlumAd = new System.Windows.Forms.Button();
             this.lblDetalles = new System.Windows.Forms.Label();
-            this.pnlDatAlumAd = new System.Windows.Forms.Panel();
-            this.lblEncargado = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lblDetaAlum = new System.Windows.Forms.Label();
-            this.dataGridDetaAlumAd = new System.Windows.Forms.DataGridView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.pnlDetallesInfo.SuspendLayout();
-            this.pnlDatAlumAd.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridDetaAlumAd)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlDetallesInfo
@@ -82,92 +86,122 @@
             this.lblDetalles.TabIndex = 0;
             this.lblDetalles.Text = resources.GetString("lblDetalles.Text");
             // 
-            // pnlDatAlumAd
+            // panel1
             // 
-            this.pnlDatAlumAd.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.pnlDatAlumAd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlDatAlumAd.BackgroundImage")));
-            this.pnlDatAlumAd.Controls.Add(this.lblEncargado);
-            this.pnlDatAlumAd.Controls.Add(this.label5);
-            this.pnlDatAlumAd.Controls.Add(this.label4);
-            this.pnlDatAlumAd.Controls.Add(this.label3);
-            this.pnlDatAlumAd.Controls.Add(this.label2);
-            this.pnlDatAlumAd.Controls.Add(this.lblDetaAlum);
-            this.pnlDatAlumAd.Location = new System.Drawing.Point(0, 81);
-            this.pnlDatAlumAd.Name = "pnlDatAlumAd";
-            this.pnlDatAlumAd.Size = new System.Drawing.Size(261, 435);
-            this.pnlDatAlumAd.TabIndex = 1;
+            this.panel1.Controls.Add(this.dataGridView1);
+            this.panel1.Controls.Add(this.panel2);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(0, 81);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(788, 435);
+            this.panel1.TabIndex = 2;
             // 
-            // lblEncargado
+            // panel2
             // 
-            this.lblEncargado.AutoSize = true;
-            this.lblEncargado.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEncargado.Location = new System.Drawing.Point(74, 371);
-            this.lblEncargado.Name = "lblEncargado";
-            this.lblEncargado.Size = new System.Drawing.Size(119, 19);
-            this.lblEncargado.TabIndex = 5;
-            this.lblEncargado.Text = "ENCARGADO ";
+            this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
+            this.panel2.Controls.Add(this.label8);
+            this.panel2.Controls.Add(this.label7);
+            this.panel2.Controls.Add(this.label6);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Controls.Add(this.label4);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.label2);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
+            this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 435);
+            this.panel2.TabIndex = 0;
             // 
-            // label5
+            // dataGridView1
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(92, 328);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(83, 19);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "CORREO ";
+            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(208, 66);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(573, 360);
+            this.dataGridView1.TabIndex = 1;
             // 
-            // label4
+            // label1
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(80, 287);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(106, 19);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "APELLIDOS ";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(86, 240);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(95, 19);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "NOMBRES ";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(27, 137);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(155, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "DETALLES DE ALUMNOS";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(95, 194);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(70, 169);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 19);
-            this.label2.TabIndex = 1;
+            this.label2.Size = new System.Drawing.Size(57, 13);
+            this.label2.TabIndex = 3;
             this.label2.Text = "CARNET";
             // 
-            // lblDetaAlum
+            // label3
             // 
-            this.lblDetaAlum.AutoSize = true;
-            this.lblDetaAlum.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDetaAlum.Location = new System.Drawing.Point(52, 126);
-            this.lblDetaAlum.Name = "lblDetaAlum";
-            this.lblDetaAlum.Size = new System.Drawing.Size(173, 19);
-            this.lblDetaAlum.TabIndex = 0;
-            this.lblDetaAlum.Text = "Detalles del Alumno";
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(69, 303);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(59, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "CORREO";
             // 
-            // dataGridDetaAlumAd
+            // label4
             // 
-            this.dataGridDetaAlumAd.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridDetaAlumAd.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridDetaAlumAd.Location = new System.Drawing.Point(261, 253);
-            this.dataGridDetaAlumAd.Name = "dataGridDetaAlumAd";
-            this.dataGridDetaAlumAd.Size = new System.Drawing.Size(527, 229);
-            this.dataGridDetaAlumAd.TabIndex = 2;
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(65, 195);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(68, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "NOMBRES";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(62, 221);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(75, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "APELLIDOS";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(67, 249);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(63, 13);
+            this.label6.TabIndex = 7;
+            this.label6.Text = "ESCUELA";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(80, 273);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(33, 13);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "AÑO";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(58, 327);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(84, 13);
+            this.label8.TabIndex = 9;
+            this.label8.Text = "ENCARGADO";
             // 
             // FrmDetallesAd
             // 
@@ -175,17 +209,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(788, 516);
-            this.Controls.Add(this.dataGridDetaAlumAd);
-            this.Controls.Add(this.pnlDatAlumAd);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlDetallesInfo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FrmDetallesAd";
             this.Text = "FrmDetallesAd";
             this.pnlDetallesInfo.ResumeLayout(false);
             this.pnlDetallesInfo.PerformLayout();
-            this.pnlDatAlumAd.ResumeLayout(false);
-            this.pnlDatAlumAd.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridDetaAlumAd)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -194,14 +228,17 @@
 
         private System.Windows.Forms.Panel pnlDetallesInfo;
         private System.Windows.Forms.Label lblDetalles;
-        private System.Windows.Forms.Panel pnlDatAlumAd;
+        private System.Windows.Forms.Button btnInfoDetaAlumAd;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lblDetaAlum;
-        private System.Windows.Forms.DataGridView dataGridDetaAlumAd;
-        private System.Windows.Forms.Button btnInfoDetaAlumAd;
-        private System.Windows.Forms.Label lblEncargado;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
     }
 }

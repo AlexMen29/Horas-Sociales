@@ -74,6 +74,7 @@
             // 
             // pnlInformacionAd
             // 
+            this.pnlInformacionAd.AutoScroll = true;
             this.pnlInformacionAd.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pnlInformacionAd.BackgroundImage")));
             this.pnlInformacionAd.Controls.Add(this.label1);
             this.pnlInformacionAd.Controls.Add(this.lblTelefonoAd);

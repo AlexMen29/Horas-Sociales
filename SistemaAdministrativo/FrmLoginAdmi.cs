@@ -17,11 +17,9 @@ namespace SistemaAdministrativo
             InitializeComponent();
         }
 
-
-
         private void AbrirForm(object FrmInicio)
         {
-            if(pnlContenedor.Controls.Count > 0)
+            if (pnlContenedor.Controls.Count > 0)
             {
                 this.pnlContenedor.Controls.RemoveAt(0);
             }
@@ -36,13 +34,11 @@ namespace SistemaAdministrativo
 
         private void btnInicio_Click(object sender, EventArgs e)
         {
-            
-             FrmDatosInicio us = new FrmDatosInicio();
-             AbrirForm(us);
-
-             pictBoxLogo.Visible = false;
+            FrmDatosInicio us = new FrmDatosInicio();
+            AbrirForm(us);
+            pictBoxLogo.Visible = false;
         }
-        
+
         private void pnlContenedor_Paint(object sender, PaintEventArgs e)
         {
 
@@ -52,13 +48,14 @@ namespace SistemaAdministrativo
         {
             FrmDetallesAd us = new FrmDetallesAd();
             AbrirForm(us);
-
+            pictBoxLogo.Visible = false;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             EliminarDetallesAlum us = new EliminarDetallesAlum();
             AbrirForm(us);
+            pictBoxLogo.Visible = false;
         }
     }
 }

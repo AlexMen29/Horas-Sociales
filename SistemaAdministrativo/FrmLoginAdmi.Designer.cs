@@ -71,7 +71,7 @@
             this.btnHojaSocial.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHojaSocial.Image = ((System.Drawing.Image)(resources.GetObject("btnHojaSocial.Image")));
             this.btnHojaSocial.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnHojaSocial.Location = new System.Drawing.Point(0, 288);
+            this.btnHojaSocial.Location = new System.Drawing.Point(0, 328);
             this.btnHojaSocial.Name = "btnHojaSocial";
             this.btnHojaSocial.Size = new System.Drawing.Size(232, 48);
             this.btnHojaSocial.TabIndex = 13;
@@ -83,7 +83,7 @@
             this.btnEnviarMensaje.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEnviarMensaje.Image = ((System.Drawing.Image)(resources.GetObject("btnEnviarMensaje.Image")));
             this.btnEnviarMensaje.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEnviarMensaje.Location = new System.Drawing.Point(0, 240);
+            this.btnEnviarMensaje.Location = new System.Drawing.Point(0, 280);
             this.btnEnviarMensaje.Name = "btnEnviarMensaje";
             this.btnEnviarMensaje.Size = new System.Drawing.Size(232, 48);
             this.btnEnviarMensaje.TabIndex = 12;
@@ -95,7 +95,7 @@
             this.btnEliModi.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliModi.Image = ((System.Drawing.Image)(resources.GetObject("btnEliModi.Image")));
             this.btnEliModi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnEliModi.Location = new System.Drawing.Point(0, 192);
+            this.btnEliModi.Location = new System.Drawing.Point(0, 232);
             this.btnEliModi.Name = "btnEliModi";
             this.btnEliModi.Size = new System.Drawing.Size(232, 48);
             this.btnEliModi.TabIndex = 10;
@@ -108,7 +108,7 @@
             this.btnDetalles.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDetalles.Image = ((System.Drawing.Image)(resources.GetObject("btnDetalles.Image")));
             this.btnDetalles.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnDetalles.Location = new System.Drawing.Point(0, 144);
+            this.btnDetalles.Location = new System.Drawing.Point(0, 184);
             this.btnDetalles.Name = "btnDetalles";
             this.btnDetalles.Size = new System.Drawing.Size(232, 48);
             this.btnDetalles.TabIndex = 9;
@@ -121,7 +121,7 @@
             this.btnInicio.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInicio.Image = ((System.Drawing.Image)(resources.GetObject("btnInicio.Image")));
             this.btnInicio.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnInicio.Location = new System.Drawing.Point(0, 96);
+            this.btnInicio.Location = new System.Drawing.Point(0, 136);
             this.btnInicio.Name = "btnInicio";
             this.btnInicio.Size = new System.Drawing.Size(232, 48);
             this.btnInicio.TabIndex = 0;
