@@ -32,7 +32,7 @@
             this.PanelOpciones = new System.Windows.Forms.Panel();
             this.btnHojaSocial = new System.Windows.Forms.Button();
             this.btnEnviarMensaje = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnEliModi = new System.Windows.Forms.Button();
             this.btnDetalles = new System.Windows.Forms.Button();
             this.btnInicio = new System.Windows.Forms.Button();
             this.btnCerrarSesion = new System.Windows.Forms.Button();
@@ -56,7 +56,7 @@
             this.PanelOpciones.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PanelOpciones.BackgroundImage")));
             this.PanelOpciones.Controls.Add(this.btnHojaSocial);
             this.PanelOpciones.Controls.Add(this.btnEnviarMensaje);
-            this.PanelOpciones.Controls.Add(this.button3);
+            this.PanelOpciones.Controls.Add(this.btnEliModi);
             this.PanelOpciones.Controls.Add(this.btnDetalles);
             this.PanelOpciones.Controls.Add(this.btnInicio);
             this.PanelOpciones.Controls.Add(this.btnCerrarSesion);
@@ -90,17 +90,18 @@
             this.btnEnviarMensaje.Text = "Enviar mensaje";
             this.btnEnviarMensaje.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnEliModi
             // 
-            this.button3.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 192);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(232, 48);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Eliminar/Modificar";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnEliModi.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEliModi.Image = ((System.Drawing.Image)(resources.GetObject("btnEliModi.Image")));
+            this.btnEliModi.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnEliModi.Location = new System.Drawing.Point(0, 192);
+            this.btnEliModi.Name = "btnEliModi";
+            this.btnEliModi.Size = new System.Drawing.Size(232, 48);
+            this.btnEliModi.TabIndex = 10;
+            this.btnEliModi.Text = "Eliminar/Modificar";
+            this.btnEliModi.UseVisualStyleBackColor = true;
+            this.btnEliModi.Click += new System.EventHandler(this.button3_Click);
             // 
             // btnDetalles
             // 
@@ -113,6 +114,7 @@
             this.btnDetalles.TabIndex = 9;
             this.btnDetalles.Text = "Detalles ";
             this.btnDetalles.UseVisualStyleBackColor = true;
+            this.btnDetalles.Click += new System.EventHandler(this.btnDetalles_Click);
             // 
             // btnInicio
             // 
@@ -263,7 +265,7 @@
         private System.Windows.Forms.Button btnInicio;
         private System.Windows.Forms.Button btnHojaSocial;
         private System.Windows.Forms.Button btnEnviarMensaje;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnEliModi;
         private System.Windows.Forms.Button btnDetalles;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictBoxLogo;

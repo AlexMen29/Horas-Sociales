@@ -47,5 +47,18 @@ namespace SistemaAdministrativo
         {
 
         }
+
+        private void btnDetalles_Click(object sender, EventArgs e)
+        {
+            FrmDetallesAd us = new FrmDetallesAd();
+            AbrirForm(us);
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            EliminarDetallesAlum us = new EliminarDetallesAlum();
+            AbrirForm(us);
+        }
     }
 }
