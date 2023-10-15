@@ -35,7 +35,7 @@ namespace SistemaAdministrativo
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // Muestra un cuadro de diálogo de confirmación
+            // Cuadro de diálogo de confirmación
             DialogResult result = MessageBox.Show("¿Está seguro de que desea eliminar los datos?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
@@ -72,15 +72,15 @@ namespace SistemaAdministrativo
 
         private void button2_Click(object sender, EventArgs e)
         {
-            // Muestra un cuadro de diálogo de confirmación
+            // Cuadro de diálogo de confirmación
             DialogResult result = MessageBox.Show("¿Está seguro de que desea modificar los datos?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
 
             if (result == DialogResult.Yes)
             {
                 // Coloca aquí el código para modificar los datos
-                // Por ejemplo:
                 // Guardar los nuevos valores en una base de datos
                 // Actualizar los controles con los nuevos valores
+                // 
                 txtBoxCarnetCap.Text = "";
                 txtBoxNombresCap.Text = "";
                 txtBoxApellidosCap.Text = "";
