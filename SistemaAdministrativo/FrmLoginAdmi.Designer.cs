@@ -76,6 +76,7 @@
             this.btnHojaSocial.TabIndex = 13;
             this.btnHojaSocial.Text = "   Hoja de Hora Social";
             this.btnHojaSocial.UseVisualStyleBackColor = true;
+            this.btnHojaSocial.Click += new System.EventHandler(this.btnHojaSocial_Click);
             // 
             // btnEnviarMensaje
             // 

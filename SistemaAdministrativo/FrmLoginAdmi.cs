@@ -57,5 +57,12 @@ namespace SistemaAdministrativo
             AbrirForm(us);
             pictBoxLogo.Visible = false;
         }
+
+        private void btnHojaSocial_Click(object sender, EventArgs e)
+        {
+            ImpresionDatos us = new ImpresionDatos();
+            AbrirForm(us);
+            pictBoxLogo.Visible = false;
+        }
     }
 }
