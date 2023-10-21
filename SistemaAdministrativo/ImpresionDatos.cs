@@ -20,6 +20,8 @@ namespace SistemaAdministrativo
 
         private void btnImprimir_Click(object sender, EventArgs e)
         {
+            //Me permite la opción por defecto la elección de las impresiones
+            //conectadas a la computadora. 
             PrintDocument pd = new PrintDocument();
             pd.PrintPage += new PrintPageEventHandler(this.ImprimirContenido);
 
@@ -36,6 +38,8 @@ namespace SistemaAdministrativo
         {
             Font fuente = new Font("Arial", 12);
             e.Graphics.DrawString("Este es un ejemplo de impresión.", fuente, Brushes.Black, 100, 100);
+
+            //Esto me permite la fuente de impresión en la hoja.
         }
     }
 }
